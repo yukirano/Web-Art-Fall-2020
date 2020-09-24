@@ -2,8 +2,6 @@
 
 body {
     background: url(https://cutewallpaper.org/21/tumblr-pixel-background/Kawaii-Pixel-Background-Tumblr-Pastel-Pizza-Backgrounds-GIF-.gif);
-    height: 3072px;
-    width: 1920px;
   
   }
   .piano-man {
@@ -19,10 +17,17 @@ body {
       margin-left: 100px;
   }
   header {
+    background-image: url(https://cdn131.picsart.com/310871678026211.png);
+    background-repeat: repeat-x;
+    height: 60px;
+    background-size: 5% 100%;
+  }
+
+  h1 {
     color: yellow;
     padding: 50px;
     text-align: center;
-    font-size: 50px;
+    font-size: 150px;
     font-family: 'Concert One';
   }
   .pink {
@@ -32,13 +37,16 @@ body {
       color: black;
   }
   h2 {
-    position: absolute;
-    left: 500px;
-    bottom: 450px;
     color: yellow;
+    padding: 10px;
+    margin: auto;
     font-size: 60px;
     font-family: 'Concert One';
-    
+    text-align: center;
+    width: 700px;
+    height: 200px;
+    background: white;
+    border-radius: 50px;
   }
   p {
       background: white;
@@ -51,38 +59,36 @@ body {
       
   }
   p2 {
-      position: absolute;
       color: yellow;
       font-family: 'Concert One';
       line-height: 40px;
-      width: 500px;
-      left: 200px;
-      top: 700px;
+      width: 100px;
       
 
   }
   .shrunk {
     position: fixed;
     bottom: 0;
-    left: 1050px;
     z-index: 2;
-    margin-right: 100px;
+    margin-right: 0;
+    margin-left: 75%;
+   
   }
-
-  .round {
-      transform: scale(2);
-    position: absolute;
-    top: 1200px;
-    left: 400px;
-
-  }
-
   .dragon {
     position: absolute;
     top: 1000px;
     right: 100px;
   }
-
+  footer {
+    background-image: url(https://cdn131.picsart.com/310871678026211.png);
+    background-repeat: repeat-x;
+    height: 60px;
+    background-size: 5% 100%;
+    margin-top: 50px;
+    
+    
+}
  
+
 
  
