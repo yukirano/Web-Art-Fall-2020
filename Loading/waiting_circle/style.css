@@ -1,0 +1,140 @@
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue; 
+    font-family: Arial;
+  }
+  h1{
+    font-size: 20px;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    margin: 10px;
+    
+}
+
+p{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+  .hammie{
+     height: 50px;
+     width: 90px;
+    background-color: #f0ddaa;
+    border-radius: 10em / 10em;
+    position: relative;
+    top: 185px;
+    left: 67px;
+  }
+  .leg-back{
+     height: 10px;
+     width: 25px;
+    background-color: #f0ddaa;
+    border-radius: 10em / 10em;
+    position: relative;
+    top: 29px;
+    left: -2px;
+    transform: rotate(-45deg);
+    
+      animation-name: back;
+    animation-duration: .3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+  }
+  
+  .leg-front{
+     height: 10px;
+     width: 25px;
+    background-color: #f0ddaa;
+    border-radius: 10em / 10em;
+    position: relative;
+    top: 40px;
+    left: 65px;
+    transform: rotate(45deg);
+    
+      animation-name: front;
+    animation-duration: .3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+  }
+  
+  .ear{
+     height: 15px;
+     width: 15px;
+    border-radius: 50%;
+    background-color: #f0ddaa;
+    position: absolute;
+    top: -6px;
+    left: 55px;
+  }
+  .eye{
+     height: 7px;
+     width: 7px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 13px;
+    left: 70px;
+  }
+  .circle {
+    height: 200px;
+    width: 200px;
+    border-color: white;
+    border-radius: 50%;
+    border-width: 10px;  
+    border-style:solid;
+  }
+  
+  .bar {
+    width: 210px;
+    height: 15px;
+    background-color: white;
+    transform: rotate(90deg);
+      position: relative;
+    top: -116px;
+    
+    animation-name: spin;
+    animation-duration: 1.52s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+  }
+  
+   .bolt {
+    height: 10px;
+    width: 10px;
+    background-color: grey;
+    border-radius: 50%;
+  
+  left: 100px;
+    top: -128px;
+    position: relative;
+  } 
+  
+   @keyframes spin {
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
+  } 
+  
+   @keyframes back {
+     50% {
+          transform: rotate(-90deg);
+      }
+  }
+  
+  @keyframes front {
+     50% {
+          transform: rotate(90deg);
+      }
+  }
