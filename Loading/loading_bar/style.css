@@ -16,7 +16,11 @@ body {
     margin-top: 850px;
     color: #d3d2be; 
   }
-  
+  span {
+    position: absolute;
+    top: 50%;
+    z-index: 100;
+  }
   span::before { 
               content: "Waiting..."; 
                 animation-duration: 10s;
