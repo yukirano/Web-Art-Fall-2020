@@ -1,0 +1,12 @@
+body {
+    margin: 50px;
+}
+
+html {
+    font-family: Arial;
+}
+
+p{
+    columns: 100px 3;
+    column-gap: 50px;
+}

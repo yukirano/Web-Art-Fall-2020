@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: monospace;
+}
+
+body {
+    margin: 50px;
+}
+
+i {
+    display: none;
+    padding: 10px;
+  }
+  
+  div:hover i {
+    display: block;
+  }
+
+  h2 {
+      margin-top: 50px;
+  }
+  h2:active {
+    background-color: palevioletred;
+  }
+
+  input:focus {
+    background-color: black;
+  }
+
+  form {
+    margin-top: 50px;
+}
+
+a:visited {
+    color: pink;
+  }

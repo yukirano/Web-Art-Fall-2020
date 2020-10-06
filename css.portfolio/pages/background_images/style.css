@@ -1,3 +1,9 @@
 body{
-    background-image: url("images/something.gif")
+    background-image: url("images/chihuahua.gif");
+
+}
+
+html {
+    font-family: Arial;
+    color: white;
 }
