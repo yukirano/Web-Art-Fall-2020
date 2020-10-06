@@ -6,5 +6,25 @@
 }
 
 html {
-    font-family: Arial;
+    font-family: Helvetica;
 }
+
+header {
+    padding: 10vmin;
+    background: rgba(76, 179, 248, 0.533);
+    text-align: center;
+
+}
+
+header h1{
+    font-size: 10vmin;
+    color: white;
+    
+
+}
+
+p{
+    margin: 10vmax;
+
+ }
+
