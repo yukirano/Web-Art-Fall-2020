@@ -9,6 +9,15 @@ $(document).ready(function(){
   })
 
   setTimeout(function(){
+    $('#good__box').text("Keep waiting");
+  }, 3000)
+
+  setTimeout(function(){
+    $('#good__box').text("Any time now");
+  }, 10000)
+
+
+  setTimeout(function(){
     $('#good__box').text("Good Job");
   }, 15000)
 
