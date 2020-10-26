@@ -5,7 +5,7 @@ $(document).ready(function(){
    
     setTimeout(function(){
       $('#time__box').text("I said don't push");
-    }, 5000)
+    }, 3000)
   })
 
   setTimeout(function(){
