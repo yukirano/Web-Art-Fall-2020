@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+}
+
+.box{
+  text-align: center;
+  top: 20vmin;
+  padding-top: 40vmin;
+}
+
+.text {
+  color: black;
+  text-align: center;
+  padding: 5vmin;
+}
+
+button {
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 1em;
+    color: red;
+    font-size: 24px;
+    padding: 1em 2em;
+    cursor: pointer;
+  }
+
+button:hover {
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 1em;
+    color: white;
+    font-size: 24px;
+    padding: 1em 2em;
+    cursor: pointer;
+  }
+
+
+  
+
+
