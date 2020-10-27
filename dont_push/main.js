@@ -19,7 +19,7 @@ $(document).ready(function(){
 
   setTimeout(function(){
     $('#good__box').text("Good Job");
-  }, 30000)
+  }, 60000)
 
 
 })
